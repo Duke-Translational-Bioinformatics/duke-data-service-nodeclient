@@ -3,6 +3,13 @@ logs
 *.log
 npm-debug.log*
 
+# Windows specific
+*.DS_Store
+.idea/
+
+#Project Specific
+swagger-codegen/
+
 # Runtime data
 pids
 *.pid
