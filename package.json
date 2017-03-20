@@ -1,0 +1,25 @@
+{
+  "name": "duke_data_service_api",
+  "version": "0.0.2",
+  "description": "REST_API_to_the_Duke_Data_Service__Some_requests_require_Authentication_",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Duke-Translational-Bioinformatics/duke-data-service-nodeclient"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "superagent": "1.7.1",
+    "superagent-bluebird-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
